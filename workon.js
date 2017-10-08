@@ -1,30 +1,38 @@
+function start() {
+    var result = model;
+    result = model.map(a => {return {"name":a.name, "children"}})
+}
+
+
+
+
 [{"name": "A",
  "children" : [
     {
 		"children": [{
 				"name": "Subject knowledge",
-				"colour": "#dbc970"
+				"Level": 3
 			},
 			{
 				"name": "Research methods – theoretical knowledge",
-				"colour": "#db7070"
+				"Level": 1
 			}, {
 				"name": "Research methods – practical application",
-				"colour": "#c1db70"
+				"Level": 4
 			},
 			{
 				"name": "Information Seeking",
-				"colour": "#c1db70"
+				"Level": 4
 			}, {
 				"name": "Information Literacy and Management",
-				"colour": "#db9d70"
+				"Level": 2
 			},
 			{
 				"name": "Languages",
-				"colour": "#db7070"
+				"Level": 1
 			}, {
 				"name": "Academic Literacy and Numeracy",
-				"colour": "#db7070"
+				"Level": 1
 			}
 		],
 		"name": "A1: Knowledge base"
@@ -32,40 +40,40 @@
 	{
 		"children": [{
 			"name": "Analysing",
-			"colour": "#db7070"
+			"Level": 1
 		}, {
 			"name": "Critical Thinking",
-			"colour": "#db7070"
+			"Level": 1
 		}, {
 
 			"name": "Problem Solving",
-			"colour": "#db7070"
+			"Level": 1
 		}, {
 
 			"name": "Synthesising",
-			"colour": "#db9d70"
+			"Level": 2
 		}, {
 
 			"name": "Evaluating",
-			"colour": "#dbc970"
+			"Level": 3
 		}],
 		"name": "A2: Cognitive Abilities"
 	}, {
 		"children": [{
 			"name": "Inquiring mind",
-			"colour": "#db7070"
+			"Level": 1
 		}, {
 			"name": "Intellectual Insight",
-			"colour": "#db7070"
+			"Level": 1
 		}, {
 			"name": "Innovation",
-			"colour": "#db7070"
+			"Level": 1
 		}, {
 			"name": "Argument Construction",
-			"colour": "#db9d70"
+			"Level": 2
 		}, {
 			"name": "Intellectual risk",
-			"colour": "#db9d70"
+			"Level": 2
 		}],
 		"name": "A3 Creativity"
 }]}
@@ -75,65 +83,66 @@
 		"children" : [{ 
             "children": [{
 			"name": "Enthusiasm",
-			"colour": "#db7070"
+			"Level": 1
 		}, {
 			"name": "Perseverance",
-			"colour": "#db9d70"
+			"Level": 2
 		}, {
 
 			"name": "Integrity",
-			"colour": "#db7070"
+			"Level": 1
 		}, {
 			"name": "Self-confidence",
-			"colour": "#c1db70"
+			"Level": 4
 		}, {
 
 			"name": "Self-reflection",
-			"colour": "#c1db70"
+			"Level": 4
 		}, {
 			"name": "Responsibility",
-			"colour": "#94db70"
+			"Level": 5
 		}],
 		"name": "B1: Personal Qualities"
 
 	}, {
 		"children": [{
 			"name": "Preparation and prioritisation",
-			"colour": "#94db70"
+			"Level": 5
 		}, {
 			"name": "Commitment to resarch",
-			"colour": "#94db70"
+			"Level": 5
 		}, {
 
 			"name": "Time Management",
-			"colour": "#94db70"
+			"Level": 5
 		}, {
 
 			"name": "Responsiveness to Change",
-			"colour": "#94db70"
+			"Level": 5
 		}, {
 
 			"name": "Work-life balance",
-			"colour": "#94db70"
+			"Level": 5
 		}],
 
 		"name": "B2: Self-management"
 	}, {
 		"children": [{
 			"name": "Career management",
-			"colour": "#94db70"
+			"Level": 5
 		}, {
 			"name": "Continuing profesSional development",
-			"colour": "#94db70"
+			"Level": 5
 		}, {
 			"name": "Responsiveness to opportunities",
-			"colour": "#94db70"
+			"Level": 5
 		}, {
 			"name": "Networking",
-			"colour": "#94db70"
+			"Level": 5
 		}, {
 			"name": "Reputation and Esteem",
-			"colour": "#94db70"
+			"Level": 5
 		}],
 		"name": "B3: Professional and career development"
 }]}]
+start();

@@ -30,10 +30,15 @@ p#intro {
   text-align: center;
   margin: 1em 0;
 }
+
+ path{ transition: fill 1s;
+}
+body {overflow:hidden}
 </style>
 
-<div id="vis">&nbsp;</div>
+<div id="vis" style="position:relative;left:-1500px">&nbsp;</div>
 <script src="http://d3js.org/d3.v3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script>
 var width = 840,
     height = width,
@@ -71,7 +76,9 @@ d3.json("data.json", function(error, json) {
       .attr("id", function(d, i) { return "path-" + i; })
       .attr("d", arc)
       .attr("fill-rule", "evenodd")
-      .style("fill", colour)
+      .attr("class", "hide-path")
+      .attr("data-fill", colour)
+      .style('fill', 'white')
       .on("click", click);
 
   var text = vis.selectAll("text").data(nodes);
@@ -175,3 +182,21 @@ function brightness(rgb) {
 <script>
   if (top != self) top.location.replace(location);
 </script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+  <script>
+  $(document).ready(function() {
+  TweenLite.to($('#vis'),2.4 , {rotation:720, ease:Bounce.easeOut});
+  TweenLite.to($('#vis'), 2.4 ,{left:0, ease:Bounce.easeOut , onComplete: fadeIn})
+  });
+
+  function fadeIn() {
+      $('.hide-path').each(function(a,b) {
+      setTimeout(function() {
+        $(b).attr('style', 'fill: ' + $(b).attr('data-fill'))
+      }     , a * 20);
+    })
+  }
+  </script>
