@@ -136,4 +136,120 @@
 			"colour": "#94db70"
 		}],
 		"name": "B3: Professional and career development"
-}]}]
+}]},
+{"name":"C", "children": [{
+			"children": [{
+				"name": "Health and safety",
+				"colour": "#dbc970"
+			}, {
+				"name": "Ethics, principles and sustainability",
+				"colour": "#db7070"
+			}, {
+				"name": "Legal Requirements",
+				"colour": "#db9d70"
+			}, {
+				"name": "IPR and copyright",
+				"colour": "#db9d70"
+			}, {
+				"name": "Respect and confidentiality",
+				"colour": "#db7070"
+			}, {
+				"name": "Attribution and co-authorship",
+				"colour": "#db9d70"
+			}, {
+				"name": "Appropriate practice",
+				"colour": "#dbc970"
+			}],
+			"name": "C1: Professional Conduct"
+		}, {
+			"children": [{
+				"name": "Research Strategy",
+				"colour": "#dbc970"
+			}, {
+				"name": "Project planning and delivery",
+				"colour": "#db7070"
+			}, {
+				"name": "Risk management",
+				"colour": "#db9d70"
+			}],
+			"name": "C2: Research Management"
+		}, {
+			"children": [{
+				"name": "Income and funding generation",
+				"colour": "#dbc970"
+			}, {
+				"name": "Financial management",
+				"colour": "#db7070"
+			}, {
+				"name": "Infrastructure and resources",
+				"colour": "#db9d70"
+			}],
+			"name": "C3: Finance, funding and resources"
+}]}
+        
+        
+,
+        {"name": "D", 
+        "children": [
+        {
+			"children": [{
+				"name": "Collegiality",
+				"colour": "#94db70"
+			}, {
+				"name": "Team working",
+				"colour": "#c1db70"
+			}, {
+				"name": "People management",
+				"colour": "#94db70"
+			}, {
+				"name": "Supervision",
+				"colour": "#94db70"
+			}, {
+				"name": "Mentoring",
+				"colour": "#94db70"
+			}, {
+				"name": "Influence and leadership",
+				"colour": "#c1db70"
+			}, {
+				"name": "Collaboration",
+				"colour": "#dbc970"
+			}, {
+				"name": "Equality and diversity",
+				"colour": "#94db70"
+			}],
+			"name": "D1: Working with others"
+		}, {
+			"children": [{
+				"name": "Communication Methods",
+				"colour": "#94db70"
+			}, {
+				"name": "Communication media",
+				"colour": "#c1db70"
+			}, {
+				"name": "Publication",
+				"colour": "#94db70"
+			}],
+			"name": "D2: Communication and dissemination"
+		}, {
+			"children": [{
+				"name": "Teaching",
+				"colour": "#94db70"
+			}, {
+				"name": "Public engagement",
+				"colour": "#c1db70"
+			}, {
+				"name": "Enterprise",
+				"colour": "#94db70"
+            },{
+				"name": "Policy",
+				"colour": "#94db70"
+			}, {
+				"name": "Society and culture",
+				"colour": "#94db70"
+			}, {
+				"name": "Global citizenship",
+				"colour": "#94db70"
+			}],
+			"name": "D3: Engagement and impact"
+        }]}
+]
