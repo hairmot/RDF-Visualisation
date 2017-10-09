@@ -186,9 +186,9 @@ function brightness(rgb) {
   crossorigin="anonymous"></script>
   <script>
    $(document).ready(function() {
-  // TweenLite.to($('#vis'),2.4 , {rotation:720, ease:Bounce.easeOut});
-  // TweenLite.to($('#vis'), 2.4 ,{left:0, ease:Bounce.easeOut , onComplete: fadeIn})
-  // });
+  TweenLite.to($('#vis'),2.4 , {rotation:720, ease:Bounce.easeOut});
+  TweenLite.to($('#vis'), 2.4 ,{left:0, ease:Bounce.easeOut , onComplete: fadeIn})
+  });
 
    function fadeIn() {
       $('.hide-path').each(function(a,b) {
@@ -197,6 +197,4 @@ function brightness(rgb) {
       }     , a * 20);
     })
   }
-  fadeIn();
-   })
   </script>
