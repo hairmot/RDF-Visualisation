@@ -1,4 +1,5 @@
-[{"name": "A",
+{"name":"RDF", "children": 
+[{"name": "Domain A",
  "children" : [
     {
 		"children": [{
@@ -71,7 +72,7 @@
 }]}
 
 
-, { "name": "B",
+, { "name": "Domain B",
 		"children" : [{ 
             "children": [{
 			"name": "Enthusiasm",
@@ -137,7 +138,7 @@
 		}],
 		"name": "B3: Professional and career development"
 }]},
-{"name":"C", "children": [{
+{"name":"Domain C", "children": [{
 			"children": [{
 				"name": "Health and safety",
 				"colour": "#FFF7CC"
@@ -189,7 +190,7 @@
         
         
 ,
-        {"name": "D", 
+        {"name": "Domain D", 
         "children": [
         {
 			"children": [{
@@ -252,4 +253,4 @@
 			}],
 			"name": "D3: Engagement and impact"
         }]}
-]
+]}

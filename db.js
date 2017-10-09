@@ -8,6 +8,6 @@ var url = 'mongodb://localhost';
 MongoClient.connect(url, function(err, db) {
   assert.equal(null, err);
   console.log("Connected successfully to server");
-  db.collections().then(a => console.log(a)).then(b => db.close())
-  
+ db.collection('pete').find().forEach(a =>
+ console.log(a.name))
 });
