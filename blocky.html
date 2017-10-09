@@ -16,6 +16,8 @@ body {overflow:hidden}
 text {
   pointer-events: none;
 }
+
+.parent.re { stroke:black}
 </style>
 <!--style="position:relative;left:-1500px"-->
 <div id="body" ></div>
@@ -57,7 +59,7 @@ function createchart(root) {
       ky = h / 1;
 
   g.append("svg:rect")
-      .attr("width", root.dy * kx)
+      .attr("width", a => a.children ? root.dy * kx : status = ((root.dy * kx) / 100 ) * d3.hsl(a.colour).h  === 0 ? 30:((root.dy * kx) / 100 ) * d3.hsl(a.colour).h )
       .attr("data-fill", colour)
       .attr('fill', '#efefef')
       .attr("height", function(d) { return d.dx * ky; })
