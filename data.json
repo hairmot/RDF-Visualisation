@@ -3,28 +3,28 @@
     {
 		"children": [{
 				"name": "Subject knowledge",
-				"colour": "#dbc970"
+				"colour": "#FFF7CC"
 			},
 			{
 				"name": "Research methods – theoretical knowledge",
-				"colour": "#db7070"
+				"colour": "#FFCCCC"
 			}, {
 				"name": "Research methods – practical application",
-				"colour": "#c1db70"
+				"colour": "#F2FFCC"
 			},
 			{
 				"name": "Information Seeking",
-				"colour": "#c1db70"
+				"colour": "#F2FFCC"
 			}, {
 				"name": "Information Literacy and Management",
-				"colour": "#db9d70"
+				"colour": "#FFE1CC"
 			},
 			{
 				"name": "Languages",
-				"colour": "#db7070"
+				"colour": "#FFCCCC"
 			}, {
 				"name": "Academic Literacy and Numeracy",
-				"colour": "#db7070"
+				"colour": "#FFCCCC"
 			}
 		],
 		"name": "A1: Knowledge base"
@@ -32,40 +32,40 @@
 	{
 		"children": [{
 			"name": "Analysing",
-			"colour": "#db7070"
+			"colour": "#FFCCCC"
 		}, {
 			"name": "Critical Thinking",
-			"colour": "#db7070"
+			"colour": "#FFCCCC"
 		}, {
 
 			"name": "Problem Solving",
-			"colour": "#db7070"
+			"colour": "#FFCCCC"
 		}, {
 
 			"name": "Synthesising",
-			"colour": "#db9d70"
+			"colour": "#FFE1CC"
 		}, {
 
 			"name": "Evaluating",
-			"colour": "#dbc970"
+			"colour": "#FFF7CC"
 		}],
 		"name": "A2: Cognitive Abilities"
 	}, {
 		"children": [{
 			"name": "Inquiring mind",
-			"colour": "#db7070"
+			"colour": "#FFCCCC"
 		}, {
 			"name": "Intellectual Insight",
-			"colour": "#db7070"
+			"colour": "#FFCCCC"
 		}, {
 			"name": "Innovation",
-			"colour": "#db7070"
+			"colour": "#FFCCCC"
 		}, {
 			"name": "Argument Construction",
-			"colour": "#db9d70"
+			"colour": "#FFE1CC"
 		}, {
 			"name": "Intellectual risk",
-			"colour": "#db9d70"
+			"colour": "#FFE1CC"
 		}],
 		"name": "A3 Creativity"
 }]}
@@ -75,114 +75,114 @@
 		"children" : [{ 
             "children": [{
 			"name": "Enthusiasm",
-			"colour": "#db7070"
+			"colour": "#FFCCCC"
 		}, {
 			"name": "Perseverance",
-			"colour": "#db9d70"
+			"colour": "#FFE1CC"
 		}, {
 
 			"name": "Integrity",
-			"colour": "#db7070"
+			"colour": "#FFCCCC"
 		}, {
 			"name": "Self-confidence",
-			"colour": "#c1db70"
+			"colour": "#F2FFCC"
 		}, {
 
 			"name": "Self-reflection",
-			"colour": "#c1db70"
+			"colour": "#F2FFCC"
 		}, {
 			"name": "Responsibility",
-			"colour": "#94db70"
+			"colour": "#DDFFCC"
 		}],
 		"name": "B1: Personal Qualities"
 
 	}, {
 		"children": [{
 			"name": "Preparation and prioritisation",
-			"colour": "#94db70"
+			"colour": "#DDFFCC"
 		}, {
 			"name": "Commitment to resarch",
-			"colour": "#94db70"
+			"colour": "#DDFFCC"
 		}, {
 
 			"name": "Time Management",
-			"colour": "#94db70"
+			"colour": "#DDFFCC"
 		}, {
 
 			"name": "Responsiveness to Change",
-			"colour": "#94db70"
+			"colour": "#DDFFCC"
 		}, {
 
 			"name": "Work-life balance",
-			"colour": "#94db70"
+			"colour": "#DDFFCC"
 		}],
 
 		"name": "B2: Self-management"
 	}, {
 		"children": [{
 			"name": "Career management",
-			"colour": "#94db70"
+			"colour": "#DDFFCC"
 		}, {
 			"name": "Continuing profesSional development",
-			"colour": "#94db70"
+			"colour": "#DDFFCC"
 		}, {
 			"name": "Responsiveness to opportunities",
-			"colour": "#94db70"
+			"colour": "#DDFFCC"
 		}, {
 			"name": "Networking",
-			"colour": "#94db70"
+			"colour": "#DDFFCC"
 		}, {
 			"name": "Reputation and Esteem",
-			"colour": "#94db70"
+			"colour": "#DDFFCC"
 		}],
 		"name": "B3: Professional and career development"
 }]},
 {"name":"C", "children": [{
 			"children": [{
 				"name": "Health and safety",
-				"colour": "#dbc970"
+				"colour": "#FFF7CC"
 			}, {
 				"name": "Ethics, principles and sustainability",
-				"colour": "#db7070"
+				"colour": "#FFCCCC"
 			}, {
 				"name": "Legal Requirements",
-				"colour": "#db9d70"
+				"colour": "#FFE1CC"
 			}, {
 				"name": "IPR and copyright",
-				"colour": "#db9d70"
+				"colour": "#FFE1CC"
 			}, {
 				"name": "Respect and confidentiality",
-				"colour": "#db7070"
+				"colour": "#FFCCCC"
 			}, {
 				"name": "Attribution and co-authorship",
-				"colour": "#db9d70"
+				"colour": "#FFE1CC"
 			}, {
 				"name": "Appropriate practice",
-				"colour": "#dbc970"
+				"colour": "#FFF7CC"
 			}],
 			"name": "C1: Professional Conduct"
 		}, {
 			"children": [{
 				"name": "Research Strategy",
-				"colour": "#dbc970"
+				"colour": "#FFF7CC"
 			}, {
 				"name": "Project planning and delivery",
-				"colour": "#db7070"
+				"colour": "#FFCCCC"
 			}, {
 				"name": "Risk management",
-				"colour": "#db9d70"
+				"colour": "#FFE1CC"
 			}],
 			"name": "C2: Research Management"
 		}, {
 			"children": [{
 				"name": "Income and funding generation",
-				"colour": "#dbc970"
+				"colour": "#FFF7CC"
 			}, {
 				"name": "Financial management",
-				"colour": "#db7070"
+				"colour": "#FFCCCC"
 			}, {
 				"name": "Infrastructure and resources",
-				"colour": "#db9d70"
+				"colour": "#FFE1CC"
 			}],
 			"name": "C3: Finance, funding and resources"
 }]}
@@ -194,61 +194,61 @@
         {
 			"children": [{
 				"name": "Collegiality",
-				"colour": "#94db70"
+				"colour": "#DDFFCC"
 			}, {
 				"name": "Team working",
-				"colour": "#c1db70"
+				"colour": "#F2FFCC"
 			}, {
 				"name": "People management",
-				"colour": "#94db70"
+				"colour": "#DDFFCC"
 			}, {
 				"name": "Supervision",
-				"colour": "#94db70"
+				"colour": "#DDFFCC"
 			}, {
 				"name": "Mentoring",
-				"colour": "#94db70"
+				"colour": "#DDFFCC"
 			}, {
 				"name": "Influence and leadership",
-				"colour": "#c1db70"
+				"colour": "#F2FFCC"
 			}, {
 				"name": "Collaboration",
-				"colour": "#dbc970"
+				"colour": "#FFF7CC"
 			}, {
 				"name": "Equality and diversity",
-				"colour": "#94db70"
+				"colour": "#DDFFCC"
 			}],
 			"name": "D1: Working with others"
 		}, {
 			"children": [{
 				"name": "Communication Methods",
-				"colour": "#94db70"
+				"colour": "#DDFFCC"
 			}, {
 				"name": "Communication media",
-				"colour": "#c1db70"
+				"colour": "#F2FFCC"
 			}, {
 				"name": "Publication",
-				"colour": "#94db70"
+				"colour": "#DDFFCC"
 			}],
 			"name": "D2: Communication and dissemination"
 		}, {
 			"children": [{
 				"name": "Teaching",
-				"colour": "#94db70"
+				"colour": "#DDFFCC"
 			}, {
 				"name": "Public engagement",
-				"colour": "#c1db70"
+				"colour": "#F2FFCC"
 			}, {
 				"name": "Enterprise",
-				"colour": "#94db70"
+				"colour": "#DDFFCC"
             },{
 				"name": "Policy",
-				"colour": "#94db70"
+				"colour": "#DDFFCC"
 			}, {
 				"name": "Society and culture",
-				"colour": "#94db70"
+				"colour": "#DDFFCC"
 			}, {
 				"name": "Global citizenship",
-				"colour": "#94db70"
+				"colour": "#DDFFCC"
 			}],
 			"name": "D3: Engagement and impact"
         }]}

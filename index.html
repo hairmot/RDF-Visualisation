@@ -35,8 +35,8 @@ p#intro {
 }
 body {overflow:hidden}
 </style>
-
-<div id="vis" style="position:relative;left:-1500px">&nbsp;</div>
+<!--style="position:relative;left:-1500px"-->
+<div id="vis" >&nbsp;</div>
 <script src="http://d3js.org/d3.v3.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script>
@@ -150,11 +150,9 @@ function isParentOf(p, c) {
 function colour(d) {
   if (d.children) {
     // There is a maximum of two children!
-    var colours = d.children.map(colour),
-        a = d3.hsl(colours[0]),
-        b = d3.hsl(colours[1]);
-    // L*a*b* might be better here...
-    return d3.hsl((a.h + b.h) / 2, a.s * 1.2, a.l / 1.2);
+    var colours = d.children.map(colour);
+    var averageH = colours.map(a => d3.hsl(a).h).reduce((a,b) => a + b) / colours.length
+    return d3.hsl(averageH , 1, .9);
   }
   return d.colour || "#fff";
 }
@@ -187,16 +185,18 @@ function brightness(rgb) {
   integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
   crossorigin="anonymous"></script>
   <script>
-  $(document).ready(function() {
-  TweenLite.to($('#vis'),2.4 , {rotation:720, ease:Bounce.easeOut});
-  TweenLite.to($('#vis'), 2.4 ,{left:0, ease:Bounce.easeOut , onComplete: fadeIn})
-  });
+   $(document).ready(function() {
+  // TweenLite.to($('#vis'),2.4 , {rotation:720, ease:Bounce.easeOut});
+  // TweenLite.to($('#vis'), 2.4 ,{left:0, ease:Bounce.easeOut , onComplete: fadeIn})
+  // });
 
-  function fadeIn() {
+   function fadeIn() {
       $('.hide-path').each(function(a,b) {
       setTimeout(function() {
         $(b).attr('style', 'fill: ' + $(b).attr('data-fill'))
       }     , a * 20);
     })
   }
+  fadeIn();
+   })
   </script>
